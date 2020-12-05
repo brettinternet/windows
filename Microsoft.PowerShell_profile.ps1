@@ -6,4 +6,12 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 
-remove-item alias:curl
+# Source: https://superuser.com/a/1560192
+function Relaunch-Admin { Start-Process -Verb RunAs (Get-Process -Id $PID).Path }
+Set-Alias psadmin Relaunch-Admin
+
+# DEPRECATED:
+# =====================
+# Source: https://superuser.com/a/890193/741304
+# Uncomment for PowerShell < v6
+# Remove-Item alias:curl
