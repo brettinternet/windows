@@ -1,4 +1,5 @@
 ; Make (CTRL + ALT + Right Click a window) turns the window transparent
+; Source: https://stackoverflow.com/a/45246326/6817437
 
 ^!RButton::
 WinGet, currentTransparency, Transparent, A

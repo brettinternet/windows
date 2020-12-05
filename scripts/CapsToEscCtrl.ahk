@@ -1,4 +1,5 @@
 ; Source: https://superuser.com/a/581988/741304
+
 *CapsLock::
     Send {Blind}{Ctrl Down}
     cDown := A_TickCount
