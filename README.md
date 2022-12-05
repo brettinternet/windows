@@ -27,6 +27,22 @@ Windows Store versions may need to be uninstalled first.
 
 Update chocolatey packages with `cup all -y` or `chocolatey update all -y`. You may also consider enabling an option to [ignore confirmation prompts](https://stackoverflow.com/a/30428182).
 
+## Installation
+
+Use <kbd>Shift</kbd> + <kbd>F10</kbd> for command prompt.
+
+To setup Windows 11 without signing into Microsoft, enter command before signing into a network:
+
+```
+oobe\bypassnro
+```
+
+Open settings window:
+
+```
+start ms-settings:
+```
+
 ## Setup
 
 ### PowerShell
