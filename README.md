@@ -2,6 +2,14 @@
 
 ## Apps
 
+### Ansible
+
+#### Configure winrm
+
+```ps1
+iex(iwr https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1).Content
+```
+
 ### Chocolatey setup
 
 ```ps1
