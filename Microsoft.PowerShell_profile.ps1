@@ -9,7 +9,10 @@ if (Test-Path($ChocolateyProfile)) {
 # General
 
 # Source: https://superuser.com/a/1560192
-function Relaunch-Admin { Start-Process -Verb RunAs (Get-Process -Id $PID).Path }
+function Relaunch-Admin {
+  Start-Process -Verb RunAs (Get-Process -Id $PID).Path
+  exit
+}
 Set-Alias psadmin Relaunch-Admin
 
 # Git
