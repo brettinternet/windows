@@ -21,15 +21,10 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 [Install](https://github.com/chocolatey/choco/wiki/CommandsInstall#packagesconfig) packages:
 
 ```ps1
-choco install -y [name].config
+choco install -y packages/[name].config
 ```
 
-Windows Store versions may need to be uninstalled first.
-
-- [`base.config`](./packages/base.config)
-- [`dev.config`](./packages/dev.config)
-- [`gaming.config`](./packages/gaming.config)
-- [`other.config`](./packages/other.config)
+Windows Store versions may need to be uninstalled first. See [packages](./packages).
 
 #### Update
 
