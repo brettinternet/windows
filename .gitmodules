@@ -1,0 +1,3 @@
+[submodule "scripts/Socket"]
+	path = scripts/Socket
+	url = https://github.com/G33kDude/Socket.ahk.git
