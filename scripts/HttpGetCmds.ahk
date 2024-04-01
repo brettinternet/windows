@@ -52,7 +52,13 @@ SingleMonitor()
 	Run DisplaySwitch /external
 }
 
-ExtendMonitor()
+SoundSettings()
 {
-	Run DisplaySwitch /extend
+  Run, powershell -NoExit -Command "Start ms-settings:sound",, hide
 }
+
+AppsVolumeSettings()
+{
+  Run, powershell -NoExit -Command "Start ms-settings:apps-volume",, hide
+}
+
