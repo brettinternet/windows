@@ -24,7 +24,7 @@
   ```
   winget install --id=eloston.ungoogled-chromium -e
   ```
-- [LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor)
+- [LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) - Installs to `C:\Users\<username>\AppData\Local\Microsoft\WinGet\Packages\` and doesn't appear to add an entry to the Start Menu.
   ```
   winget install --id=LibreHardwareMonitor.LibreHardwareMonitor -e
   ```
