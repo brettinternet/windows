@@ -22,15 +22,3 @@ Open settings window:
 ```
 start ms-settings:
 ```
-
-## Settings
-
-### Dual boot
-
-#### Time
-
-[Configure Windows to use UTC](https://wiki.archlinux.org/index.php/System_time#UTC_in_Windows):
-
-```powershell
-reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_QWORD /f
-```
