@@ -40,3 +40,8 @@
   ```
   winget install --id=CPUID.CPU-Z.AORUS -e
   ```
+- [WizTree]([https://www.cpuid.com/softwares/cpu-z.html](https://www.diskanalyzer.com/))
+  ```
+  winget install --id=AntibodySoftware.WizTree -e
+  ```
+  
